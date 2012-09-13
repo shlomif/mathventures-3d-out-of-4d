@@ -64,7 +64,7 @@ face value of 2 or more. Phrased in a different way it is removed:
 \item If there are 3 dice in the range 2..6 and one die whose value is 1.
 \end{enumerate}
 
-The conditions for the other 4 cases are similiar: if the additional point
+The conditions for the other 4 cases are similar: if the additional point
 is the Kth than there could be either 4 dice in the range K..6 or 3 dice in
 the range K..6 and one die in the range 1..(K-1). To evaluate it
 mathematically, I'll use the standard formulas and eventually get to:
@@ -72,7 +72,7 @@ mathematically, I'll use the standard formulas and eventually get to:
 $\left(6-K+1\right)^4  +  \left( \left(6-K+1\right)^3 \cdot \left(K-1\right) \right) \cdot 4$
 
 
-If we substract $6^4$ and those 5 sums from the total sum that was acquired in
+If we subtract $6^4$ and those 5 sums from the total sum that was acquired in
 the previous stage, we'd get to the new total with the two least dice
 removed on each throw. Divide it by the number of throws - $6^4$ - and we get
 the new average. The grand formula, then, is:
@@ -85,7 +85,7 @@ $ \frac{
 
 From the 3rd least dice onward, this method gets more and more complicated
 because we have to consider 3 different cases for every point we
-substract, 4 cases for the fourth die, and so on. If anyone has an idea
+subtract, 4 cases for the fourth die, and so on. If anyone has an idea
 on how to improve this method, or can suggest an alternative method
 which is simpler as more and more dice are removed by order, please let
 me know and I'll post it here.
